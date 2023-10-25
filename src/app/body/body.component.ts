@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {SearchResult} from "../searchResult";
 
 @Component({
   selector: 'app-body',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./body.component.scss']
 })
 export class BodyComponent {
-
+search: SearchResult;
 }
