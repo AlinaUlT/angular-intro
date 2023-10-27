@@ -1,6 +1,8 @@
 import {Video} from "./video";
+import {PageInfo} from "./pageInfo.ts";
 
 export interface SearchResult {
   searchList: Video[];
-  totalResults: number;
+  pageInfo: PageInfo;
+
 }

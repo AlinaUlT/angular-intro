@@ -3,4 +3,7 @@ export interface Video{
   stats: number[];
   name: string;
   videoURL: string;
+  description: string;
+  tags: string[];
+  publishDate: string;
 }
