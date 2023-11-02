@@ -11,6 +11,11 @@ import { SearchFilterComponent } from './header/search-filter/search-filter.comp
 import { UserProfileComponent } from './header/user-profile/user-profile.component';
 import { BodyVideoFrameComponent } from './body/body-video-frame/body-video-frame.component';
 import { VideoStatsComponent } from './body/body-video-frame/video-stats/video-stats.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatIconModule} from "@angular/material/icon";
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { FormsModule } from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -26,7 +31,11 @@ import { VideoStatsComponent } from './body/body-video-frame/video-stats/video-s
     VideoStatsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule,
+    MatIconModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,4 @@
-import { VideoStats } from './videoStats.ts';
+import { VideoStats } from './videoStats';
 
 export interface Video{
   imgURL: string;

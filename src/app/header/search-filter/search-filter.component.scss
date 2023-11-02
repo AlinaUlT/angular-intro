@@ -1,0 +1,14 @@
+.searchFilter{
+  width: 2em;
+  height: 2em;
+  display: flex;
+  background-color: #7ac2dc;
+  border: 1px solid #7ac2dc;
+  border-radius: 2px;
+  padding: 2px;
+  box-shadow: 2px 1px 5px 1px #439ab7;
+  cursor: pointer;
+  img{
+    width: 100%;
+  }
+}

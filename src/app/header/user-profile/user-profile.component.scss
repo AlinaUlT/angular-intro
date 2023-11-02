@@ -1,0 +1,19 @@
+.profile-wrapper{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.profile-button{
+  width: 2em;
+height: 2em;
+  border:1px solid #7ac2dc;
+  border-radius: 2px;
+  background-color: #7ac2dc;
+  padding: 0;
+  box-shadow: 2px 1px 5px 1px #439ab7;
+  cursor: pointer;
+
+  img{
+    width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 5em;
+  justify-content: space-evenly;
+  height: 8em;
+  background-color: aliceblue;
+  align-items: center;
+  border-bottom: 3px solid #7ac2dc;
+}
+
+.header-search-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2em;
+  align-items: center;
+}

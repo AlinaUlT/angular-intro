@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {SearchResult} from "../../searchResult";
+import {SearchResult} from '../../searchResult';
 
 @Component({
   selector: 'app-search-field',
@@ -7,5 +7,5 @@ import {SearchResult} from "../../searchResult";
   styleUrls: ['./search-field.component.scss']
 })
 export class SearchFieldComponent {
-search: SearchResult;
+  search?: SearchResult;
 }

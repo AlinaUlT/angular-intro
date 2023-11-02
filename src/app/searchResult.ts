@@ -1,5 +1,5 @@
-import {Video} from "./video";
-import {PageInfo} from "./pageInfo.ts";
+import {Video} from './video';
+import {PageInfo} from './pageInfo';
 
 export interface SearchResult {
   searchList: Video[];
