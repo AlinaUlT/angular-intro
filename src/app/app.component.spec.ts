@@ -12,7 +12,7 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-intro-youtube-client'`, () => {
+  it('should have as title \'angular-intro-youtube-client\'', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app.title).toEqual('angular-intro-youtube-client');
@@ -22,6 +22,7 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-intro-youtube-client app is running!');
+    expect(compiled.querySelector('.content span')?.textContent)
+      .toContain('angular-intro-youtube-client app is running!');
   });
 });

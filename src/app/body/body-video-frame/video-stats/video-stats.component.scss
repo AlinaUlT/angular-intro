@@ -1,0 +1,18 @@
+.video-stats-wrapper{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.5em;
+}
+
+.stat{
+  display: flex;
+  align-items: center;
+  gap: 0.2em;
+  font-size: 10px;
+  font-weight: 500;
+
+  img{
+    width: 2em;
+    height: 2em;
+  }
+}
